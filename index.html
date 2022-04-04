@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Designed by Prashant Rai -->
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>User Entry Form</title>
+    
+    
+<link rel="stylesheet" href="style.css"></head>
+<body>
+    
+    <div class="center">
+
+        <h1>Registration</h1>
+
+        <form>
+
+        <div class="txt_field">
+            <input type="text" required="">
+            <label>First Name</label>
+        </div>
+
+        <div class="txt_field">
+            <input type="text" required="">
+            <label>Last Name</label>
+        </div>
+
+        <div class="txt_field">
+            <input type="email" required="">
+            <label>Email</label>
+        </div>
+
+        <div class="txt_field">
+            <input type="tel" required="">
+            <label>Phone Number</label>
+        </div>
+
+        <div class="dob">
+            <label>Date of Birth </label>
+            <input type="date" required="">
+        </div>
+
+        <div class="gender">
+            <label>Gender </label>
+            <input type="radio" name="gender" id="M" required="">Male
+            <input type="radio" name="gender" id="F" required="">Female
+            <input type="radio" name="gender" id="O" required="" checked="checked">Prefer not to say
+
+        </div>
+
+        <div class="edu">
+            <label>Educational Qualification </label>
+            <select>
+                <option selected="selected">select</option>
+                <option>10</option>
+                <option>10+2</option>
+                <option>Diploma</option>
+                <option>Graduate</option>
+                <option>Masters</option>
+                <option>Phd/M.fil</option>
+            </select>
+        </div>
+
+        <div class="interest">
+            <label>Area of Interest </label>
+            <input type="checkbox">Devlopment
+            <input type="checkbox">Block Chain
+            <input type="checkbox">Data Science
+            <input type="checkbox">AI
+            <input type="checkbox">Cyber Security
+            <input type="checkbox">Cloud
+
+        
+        </div>
+
+        <div class="address">
+            <label>Address</label>
+            <textarea placeholder="Enter your address" style="width: 200px; height: 17px;"></textarea>
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+
+        <div class="login_link">
+            Already Registered? <a href="#">Login</a>
+        </div>
+
+        </form>
+    </div>
+
+</body></html>
